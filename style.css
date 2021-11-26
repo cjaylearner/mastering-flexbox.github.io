@@ -1,0 +1,80 @@
+@font-face{
+ font-family: 'Roboto';
+ src: url(./web\ fonts/roboto_light_macroman/Roboto-Light-webfont.woff) format('woff');
+}
+@font-face {
+ font-family: 'Roboto-medium';
+ src: url(./web\ fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff) format('woff');
+}
+*,
+*::before,
+*::after{
+ box-sizing: border-box;
+}
+
+body{
+ font-size: 1rem;
+ padding: 0;
+ margin: 0;
+}
+p{
+ font-family: 'Roboto';
+
+}
+
+h1,h2{
+ font-family: 'Roboto-medium';
+}
+img{
+ max-width: 100%;
+}
+
+.container{
+ width: 90%;
+ max-width: 750px;
+ margin: 0 auto;
+}
+.hero-page{
+ background-color:#23424A ;
+ padding: 3em 0;
+}
+.hero-content{
+ display: flex;
+
+}
+.hero-text{
+ width: 60%;
+ color: #fff;
+}
+
+.hero-text p{
+ margin-bottom: 3em;
+}
+.hero-text a{
+ text-decoration: none;
+ text-transform: uppercase;
+ border-radius: 100px;
+ background-color: #38CFD9;
+ font-family: 'Roboto-medium';
+ color: #23424A;
+ padding: .3em .4em;
+}
+.hero-content img{
+ align-self: flex-start;
+ margin-right: 3em;
+}
+.main{
+padding: 3em 0;
+}
+.main-wrapper{
+ display: flex;
+ justify-content: space-around;
+}
+.main-first-layout{
+ color: #136C72;
+}
+.main-second-layout{
+ text-align: center;
+ background-color: #136C72;
+ color: #fff;
+}
