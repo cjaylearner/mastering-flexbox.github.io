@@ -59,6 +59,9 @@ img{
  color: #23424A;
  padding: .3em .4em;
 }
+.hero-text a:hover{
+ opacity: .6;
+}
 .hero-content img{
  align-self: flex-start;
  margin-right: 3em;
